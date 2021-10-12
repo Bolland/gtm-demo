@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+   <!--<![endif]-->
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <title></title>
+      <meta name="description" content="" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+      <link rel="stylesheet" href="../css/bootstrap.min.css" />
+      <style>
+         body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+         }
+      </style>
+      <link rel="stylesheet" href="../css/bootstrap-theme.min.css" />
+      <link rel="stylesheet" href="../css/main.css" />
+
+      <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+      <!-- Put your Google Analytics code here -->
+ 
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136539722-1"></script>
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136539722-1');
+</script>
+
+<script>(function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+   for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+   MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+   mixpanel.init("dc68161845a3833a7325bc818c866ef7", {"api_host": "https://api-eu.mixpanel.com", batch_requests: true})</script>
+
+
+<script type="text/javascript">
+   (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+   ;r.type="text/javascript"
+   ;r.integrity="sha384-girahbTbYZ9tT03PWWj0mEVgyxtZoyDF9KVZdL+R53PP5wCY0PiVUKq0jeRlMx9M"
+   ;r.crossOrigin="anonymous";r.async=true
+   ;r.src="https://cdn.amplitude.com/libs/amplitude-7.2.1-min.gz.js"
+   ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+   console.log("[Amplitude] Error: could not load SDK")}}
+   ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+   ;function s(e,t){e.prototype[t]=function(){
+   this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+   var o=function(){this._q=[];return this}
+   ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+   ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+   ;return this}
+   ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+   ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+   ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId", "enableTracking", "setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+   ;function v(e){function t(t){e[t]=function(){
+   e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+   for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+   e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+   ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+   ;e.amplitude=n})(window,document);
+ 
+   amplitude.getInstance().init("4cbf093bcba3b02c8d14303fe422d7d3");
+ </script>
+
+      
+   </head>
+   <body>
+      <!--[if lt IE 8]>
+         <p class="browserupgrade">
+            You are using an <strong>outdated</strong> browser. Please
+            <a href="http://browsehappy.com/">upgrade your browser</a> to
+            improve your experience.
+         </p>
+      <![endif]-->
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+         <div class="container">
+            <div class="navbar-header">
+               
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="# ">Project name</a>
+            </div>
+
+            <!--/.navbar-collapse -->
+         </div>
+      </nav>
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+         <div class="container">
+            <h1>Hello, world!</h1>
+            <p>
+               This is a template for a simple marketing or informational
+               website. It includes a large callout called a jumbotron and three
+               supporting pieces of content. Use it as a starting point to
+               create something more unique.
+            </p>
+            <p>
+               <a
+                  class="btn btn-primary btn-lg"
+                  href="learn-more.html"
+                  role="button"
+                  >Learn more &raquo;</a
+               >
+            </p>
+         </div>
+      </div>
+
+      <div class="container">
+         <!-- Example row of columns -->
+         <div class="row">
+            <div class="col-md-4">
+               <h2>Heading 1</h2>
+               <p>
+                  Donec id elit non mi porta gravida at eget metus. Fusce
+                  dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                  nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
+                  malesuada magna mollis euismod. Donec sed odio dui.
+               </p>
+               <p>
+                  <a class="btn btn-default" href="#" role="button"
+                     >CTA 1 &raquo;</a
+                  >
+               </p>
+            </div>
+            <div class="col-md-4">
+               <h2>Heading 2</h2>
+               <p>
+                  Donec id elit non mi porta gravida at eget metus. Fusce
+                  dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                  nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
+                  malesuada magna mollis euismod. Donec sed odio dui.
+               </p>
+               <p>
+                  <a class="btn btn-default" href="#" role="button"
+                     >CTA 2 &raquo;</a
+                  >
+               </p>
+            </div>
+            <div class="col-md-4">
+               <h2>Heading 3</h2>
+               <p>
+                  Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
+                  egestas eget quam. Vestibulum id ligula porta felis euismod
+                  semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                  condimentum nibh, ut fermentum massa justo sit amet risus.
+               </p>
+               <p>
+                  <a class="btn btn-default" href="#" role="button"
+                     >CTA 3 &raquo;</a
+                  >
+               </p>
+            </div>
+         </div>
+
+         <hr />
+
+         <footer>
+            <p>&copy; Benjamin Bolland</p>
+         </footer>
+      </div>
+      <!-- /container -->
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script>
+         window.jQuery ||
+            document.write(
+               '<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>'
+            );
+      </script>
+
+      <script src="../js/vendor/bootstrap.min.js"></script>
+
+      <script src="../js/main.js"></script>
+   </body>
+</html>
